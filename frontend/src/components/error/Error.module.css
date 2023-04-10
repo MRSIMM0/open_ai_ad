@@ -1,0 +1,17 @@
+@import url("../../index.css");
+
+.error{
+    
+    aspect-ratio: 5/1;
+    position: absolute;
+    align-self: center;
+    bottom: 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fourtg);
+    color: white;
+    border-radius: 10px;
+    opacity: 0;
+}

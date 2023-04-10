@@ -1,0 +1,41 @@
+@import url("../../index.css");
+
+.file_uploader{
+    
+    border: 2px dashed var(--five);
+    border-radius: 20px;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+
+
+    
+}
+
+.input{
+    display:none;
+}
+
+.text{
+    font-size: 1.1em;
+    user-select: none;
+    text-align: center;
+}
+
+
+.upload{
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.upload:hover{
+text-decoration: underline;
+}
+
+.upload:active{
+    text-decoration: none;
+    }

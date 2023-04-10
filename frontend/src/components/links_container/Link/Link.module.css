@@ -1,0 +1,74 @@
+@import url("../../../index.css");
+
+.link {
+  display: flex;
+  font-size: 1.6em;
+  width: 100%;
+  border-bottom: 3px solid var(--five);
+  cursor: pointer;
+  user-select: none;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  /* text-overflow: clip; */
+}
+
+
+
+.link:hover {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.026);
+}
+
+.padding {
+
+  display: flex;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+
+.ico:hover{
+    background-color: rgba(0, 0, 0, 0.076);
+    border-radius: 7px;
+}
+
+.ico:active{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 7px;
+}
+
+.icons {
+font-size: 1.1em;
+  gap: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+:root {
+  --scrollbarBG: var(--main);
+  --thumbBG: var(--five);
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 2px;
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 2px;
+  border: 1px solid var(--scrollbarBG);
+}

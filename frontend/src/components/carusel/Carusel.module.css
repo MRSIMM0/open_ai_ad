@@ -1,0 +1,82 @@
+.carusel {
+  position: relative;
+  scroll-behavior: smooth;
+  display: flex;
+  width: 40vw;
+  aspect-ratio: 1/1;
+  min-width: 300px;
+  display: flex;
+  overflow: hidden;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+
+  aspect-ratio: 1/1;
+  height: 100%;
+  /* background-color: red; */
+}
+
+.arrowRight {
+  color: rgba(255, 255, 255, 0.608);
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  position: absolute;
+  font-size: calc(20px + 2vw);
+  right: 0;
+  border-radius: 0 11px 11px 0;
+  height: 90%;
+  align-self: center;
+  opacity: 0;
+  transition: all 100ms ease-out;
+  cursor: pointer;
+}
+
+.arrowRight:hover {
+  -webkit-box-shadow: inset -53px 0px 76px -60px rgba(66, 68, 90, 1);
+  -moz-box-shadow: inset -53px 0px 76px -60px rgba(66, 68, 90, 1);
+  box-shadow: inset -53px 0px 76px -60px rgba(66, 68, 90, 1);
+  opacity: 1;
+}
+
+.arrowLeft{
+    color: rgba(255, 255, 255, 0.608);
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    /* background-color: red; */
+    position: absolute;
+    font-size: calc(20px + 2vw);
+
+    border-radius: 11px 0 0 11px;
+    height: 90%;
+    align-self: center;
+    opacity: 0;
+    transition: all 100ms ease-out;
+    cursor: pointer;
+}
+
+.arrowLeft:hover{
+    -webkit-box-shadow: inset -53px 0px 76px -60px rgba(66, 68, 90, 1);
+    -moz-box-shadow: inset -53px 0px 76px -60px rgba(66, 68, 90, 1);
+    box-shadow: inset -53px 0px 76px -60px rgba(66, 68, 90, 1);
+    opacity: 1;
+}
+
+.button {
+  cursor: pointer;
+  font-size: 2.2em;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  opacity: 1;
+}

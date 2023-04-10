@@ -1,0 +1,17 @@
+@import url("../../index.css");
+
+.container{
+    width: 100%;
+    border: 3px solid var(--five);
+    height: 60%;
+    border-radius: 10px;
+    height: 100%;
+    padding: 10px;
+    overflow-x: none;
+    overflow-y: auto;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}   

@@ -1,0 +1,27 @@
+@import url("../../index.css");
+
+.button_container{
+    border: 3px solid var(--five);
+    display: flex;
+    color: var(--five);
+    height: 100%;
+    aspect-ratio: 1/1;
+    font-size: 1.5em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: background-color 200ms ease-out, color 200ms ease-out;
+    cursor: pointer;
+}
+
+
+.button_container:hover{
+    color: var(--main);
+    background-color:var(--five) ;
+}
+
+.button_container:active{
+    color: var(--five);
+    background-color:var(--main) ;
+    transition: background-color 100ms ease-out, color 100ms ease-out;
+}
