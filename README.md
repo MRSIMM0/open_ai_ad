@@ -12,12 +12,12 @@ The project utilizes OpenAI's GPT-3 Turbo model to analyze user-entered links an
   4. **Customized Advertisements:** The final output consists of a series of highly personalized advertisements that combine the generated ad copy and images, providing users with a unique and engaging experience.
 ### Potential Use Cases
 
-   1. Digital Marketing: This proof of concept can be adapted for digital marketing campaigns, utilizing AI-generated advertisements to target specific audiences and drive user engagement.
+   1. **Digital Marketing:** This proof of concept can be adapted for digital marketing campaigns, utilizing AI-generated advertisements to target specific audiences and drive user engagement.
 
-   2. Content Recommendation: By analyzing user behavior and browsing history, the application can recommend relevant content and products, thus enhancing user experience and increasing conversion rates.
+   2. **Content Recommendation:** By analyzing user behavior and browsing history, the application can recommend relevant content and products, thus enhancing user experience and increasing conversion rates.
 
-   3. Social Media Marketing: The AI-powered advertising solution can be incorporated into social media platforms, generating ads that blend seamlessly with the user's feed and interests.
+   3. **Social Media Marketing:** The AI-powered advertising solution can be incorporated into social media platforms, generating ads that blend seamlessly with the user's feed and interests.
 
-   4. Email Marketing: AI-generated advertisements can be embedded within email campaigns, offering users personalized and engaging content tailored to their preferences.
+   4. **Email Marketing:** AI-generated advertisements can be embedded within email campaigns, offering users personalized and engaging content tailored to their preferences.
 
-   5. E-Commerce: Online retailers can employ this advertising technology to create customized product recommendations and promotions, leading to an improved shopping experience and increased sales.
+   5. **E-Commerce:** Online retailers can employ this advertising technology to create customized product recommendations and promotions, leading to an improved shopping experience and increased sales.
