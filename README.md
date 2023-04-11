@@ -42,7 +42,7 @@ For my deployment tool, I utilized Docker and Docker Compose for containerizatio
 
 ## Instalation
 
-First you have to ensure that you have docker installed.
+First you have to ensure that you have [docker](https://docs.docker.com/engine/install/) installed.
 
 To run application you have to clone repository:
 ```
