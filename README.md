@@ -21,3 +21,62 @@ The project utilizes OpenAI's GPT-3 Turbo model to analyze user-entered links an
    4. **Email Marketing:** AI-generated advertisements can be embedded within email campaigns, offering users personalized and engaging content tailored to their preferences.
 
    5. **E-Commerce:** Online retailers can employ this advertising technology to create customized product recommendations and promotions, leading to an improved shopping experience and increased sales.
+
+## Technologies
+
+This project employs a range of technologies to deliver its functionality. On the front end, it utilizes the React.js library in combination with Redux for state management. This combination provides a robust and scalable approach to building user interfaces. On the backend, the project uses Bun.js, a faster alternative to Node.js that is written in TypeScript.
+
+For communication with user interface project uses REST API. As Backend project uses Elysia.js. This is an alternative to Express.js, and it also utilizes Bun.js as its engine. Elysia.js is known for its speed and ease of use, which makes it a great choice for building REST APIs.
+
+In addition to these technologies, the project also utilizes the OpenAI API - GPT 3 Turbo for its link analyzer. This allows the project to deliver advanced functionality in a way that is intuitive and easy to use. For image generation, the project uses the OpenAI model DALL-E. This model is capable of generating high-quality images from textual input, which makes it a powerful tool for generating dynamic and engaging visual content.
+
+For my deployment tool, I utilized Docker and Docker Compose for containerization. Docker allowed me to package my application and its dependencies into a container, which can be run on any machine that has Docker installed. Docker Compose then allowed me to easily manage multiple containers and define how they interact with each other. With this setup, I was able to ensure consistent deployment across different environments, making it easier to scale and maintain my application in the long run.
+
+### Versions
+//TODO
+- Bun.
+- React.js
+- Redux
+- Docker
+- Docker Compose
+
+## Instalation
+
+First you have to ensure that you have docker installed.
+
+To run application you have to clone repository:
+```
+git clone git@github.com:MRSIMM0/open_ai_ad.git
+```
+Or dwonload it and extract. 
+
+Then you have to add .env file to project root directory. 
+
+This file sholud contain:
+- OPEN_AI_ORG - Organization name found on OpenAi website
+- OPEN_AI_KEY - Key used to login into OpenAI api
+- POSTGRES_USER - username for postgres database 
+- POSTGRES_PASSWORD - password for postgres database
+- POSTGRES_DB - Name of database
+- TOKEN_SECRET - Secret used for genearting JWT tokens and refresh tokens
+- ROOT_PASS - Root password used to login into application
+      
+After this file is added you can start apllication for the first using
+
+```
+docker compose up --build
+```
+
+Then you can use 
+
+```
+docker compose up
+```
+
+
+
+
+
+
+
+
