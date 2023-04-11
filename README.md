@@ -95,7 +95,7 @@ Then you will be able to add links manualy or instert json array of predefined l
 ![40C2D15D-02D4-4CD9-A09F-3D5D60AA217F](https://user-images.githubusercontent.com/44839807/231198657-d7439984-bb78-408e-9e20-00ffd7bd3eae.jpeg)
 
 
-When you are happy with inserted links press button and you will be presented with folowing screen. (It's placeholder)
+When you are happy with inserted links press button and you will be presented with folowing screen. (It's a placeholder)
 
 ![10D4E8F5-1EAB-48EA-BD37-1337F181F1BD](https://user-images.githubusercontent.com/44839807/231204774-bfeced09-4b87-4f4a-85c0-9edc164bf007.jpeg)
 
